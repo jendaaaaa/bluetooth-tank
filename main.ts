@@ -19,7 +19,7 @@ basic.forever(function () {
     } else if (Data == "l") {
         OMG_Tank.Set_Speed(-100, 100)
     } else if (Data == "r") {
-        OMG_Tank.Set_Speed(-100, 100)
+        OMG_Tank.Set_Speed(100, -100)
     } else {
         OMG_Tank.Stop_Motors()
     }
